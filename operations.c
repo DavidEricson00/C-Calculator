@@ -13,6 +13,12 @@ int multiplication(int a, int b){
     return a * b;
 }
 
-int division(int a, int b){
-    return a / b;
+int division(float a, float b){
+    if(b != 0){
+        return a / b;
+    } else {
+        printf("Error: Division by zero!\n");
+        return 0;
+    }
+
 }
