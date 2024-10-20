@@ -1,16 +1,17 @@
+
 #include <stdio.h>
+#include "util.h"
 
 int main() {
-    int option;
+    int option = 6;
 
-    printf("Enter the desired option: ");
-    scanf("%d", &option);
-
-    while (option != 0) {
-        printf("While Working\n");
+    while (option != 5) {
+        header();
+        menu();
         printf("Enter the desired option: ");
         scanf("%d", &option);
     }
 
+    printf("Exiting...\n");
     return 0;
 }
