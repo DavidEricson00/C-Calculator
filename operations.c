@@ -21,3 +21,10 @@ float division(float a, float b) {
         return 0;
     }
 }
+
+void input(int *a, int *b) {
+    printf("Insert the first value: ");
+    scanf("%d", a);
+    printf("Insert the second value: ");
+    scanf("%d", b);
+}
