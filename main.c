@@ -15,3 +15,6 @@ int main() {
     printf("Exiting...\n");
     return 0;
 }
+
+// .\calculator
+// ctr + shift + b autocompile
