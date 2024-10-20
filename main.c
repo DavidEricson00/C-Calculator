@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-#include "util.h"
+#include "calculator.h"
 
 int main() {
     int option = 6;
