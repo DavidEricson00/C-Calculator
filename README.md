@@ -1,6 +1,5 @@
-<!DOCTYPE html>
 <h1 align="center">
-    🧮 Calculator System
+    🧮 C Calculator
 </h1>
 
 <h2>📌 Description</h2>
